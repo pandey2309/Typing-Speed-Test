@@ -50,4 +50,4 @@ A simple and interactive web app to measure typing speed (WPM) and accuracy in r
 
 ## Author
 
-- Kamlesh
+- Kamlesh Pandey
