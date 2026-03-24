@@ -19,8 +19,7 @@ A simple and interactive web app to measure typing speed (WPM) and accuracy in r
 
 ## Project Structure
 
-
-Typing-Speed-Test/
+"""Typing-Speed-Test/
 │
 ├── app.py
 ├── templates/
@@ -28,4 +27,4 @@ Typing-Speed-Test/
 ├── static/
 │ ├── style.css
 │ ├── script.js
-│ └── words.js
+│ └── words.js"""
