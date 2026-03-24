@@ -1,4 +1,4 @@
-# Typing Speed Test
+# TypeFlow - Typing Speed Test
 
 A simple and interactive web app to measure typing speed (WPM) and accuracy in real-time.
 
