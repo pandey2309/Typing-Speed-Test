@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TypeFlow</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="light">
+
+<div class="container">
+    <h1>TypeFlow</h1>
+    <p class="subtitle">Improve your typing speed</p>
+
+    <div class="controls">
+        <button onclick="setTime(15)">15s</button>
+        <button onclick="setTime(30)" class="active">30s</button>
+        <button onclick="setTime(45)">45s</button>
+        <button onclick="setTime(60)">60s</button>
+        <button onclick="toggleTheme()">Theme</button>
+        <button onclick="restartTest()" class="restart">Restart</button>
+    </div>
+
+    <div id="timer">30</div>
+
+    <div id="text-box">
+        <div id="text"></div>
+    </div>
+
+    
+    <input type="text" id="input" placeholder="Start typing here..." autofocus>
+
+    <div class="result">
+        <span>WPM: <b id="wpm">0</b></span>
+        <span>Accuracy: <b id="accuracy">0</b>%</span>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='words.js') }}"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
